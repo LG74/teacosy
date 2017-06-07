@@ -96,3 +96,36 @@ article {
   max-width: 100%;
   height: auto;
 }
+
+#locations {
+  margin-top: 70px;
+  height: 500px;
+  background-image: url("../img/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+#locations .title {
+  background-color: inherit;
+  border: 0px solid blue;
+  margin-top: 70px;
+}
+
+#locations h2 {
+  margin: 0px;
+}
+
+.location {
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1; /* I don't really understand that... */
+  background-color: black;
+}
+
+address {
+  font-style: normal;
+  line-height: 2.5rem;
+}
