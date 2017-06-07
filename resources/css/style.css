@@ -36,6 +36,32 @@ nav span a{
 
 /* styling the main container! */
 
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+article {
+  display: block;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  width: 1200px;
+}
+
+.title {
+  background-color: black;
+  width: 100%;
+}
+
 #mission {
   margin-top: 70px;
+  height: 700px;
+  background-image: url("../img/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
 }
